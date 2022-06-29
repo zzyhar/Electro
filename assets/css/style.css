@@ -127,6 +127,12 @@ img {
   height: 300px;
 }
 
+.shape-smaller {
+  width: 180px;
+  height: 180px;
+  filter: blur(64px);
+}
+
 /*=============== HEADER & NAV ===============*/
 
 .header {
@@ -426,9 +432,99 @@ img {
 }
 
 /*=============== POPULAR ===============*/
+.popular-container {
+  padding-top: 1rem;
+}
+
+.popular-card {
+  position: relative;
+  width: 238px;
+  background-color: var(--container-color);
+  padding: 2rem 1.5rem 1.5rem;
+  border-radius: 1.5rem;
+  margin-bottom: 3.5rem;
+  overflow: hidden;
+}
+
+.popular-card .shape-smaller {
+  position: absolute;
+  top: -2.5rem;
+  left: -2.5rem;
+}
+
+.popular-title,
+.popular-subtitle,
+.popular-img {
+  position: relative;
+}
+
+.popular-title {
+  font-size: var(--h2-font-size);
+  margin-bottom: 0.25rem;
+}
+
+.popular-subtitle {
+  font-size: var(--normal-font-size);
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+.popular-img {
+  width: 160px;
+  margin: 0.75rem 0 1.25rem 1.5rem;
+  transition: 0.3s;
+}
+
+.popular-data {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: 0.5rem 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.popular-data-group {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  font-size: var(--smaller-font-size);
+  color: var(--white-color);
+}
+
+.popular-data i {
+  font-size: 1rem;
+}
+
+.popular-price {
+  font-size: var(--h3-font-size);
+}
+
+.popular-button {
+  border: none;
+  outline: none;
+  padding: 0.75rem 1rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 1rem 0 1rem 0;
+  cursor: pointer;
+}
+
+.popular-button i {
+  font-size: 1.25rem;
+}
+
+.popular-card:hover .popular-img {
+  transform: translateY(-0.25rem);
+}
 
 /* Swiper class */
 
+.swiper-pegination-bullet {
+  background: var(--text-color);
+}
+.swiper-pegination-bullet-active {
+  background-color: var(--first-color);
+}
 /*=============== FEATURES ===============*/
 
 /*=============== FEATURED ===============*/

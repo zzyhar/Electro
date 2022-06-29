@@ -30,6 +30,13 @@ function linkAction() {
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/
+const scrollHeader = () => {
+  const header = document.getElementById("header");
+  this.scrollY >= 10
+    ? header.classList.add("scroll-header")
+    : header.classList.remove("scroll-header");
+};
+window.addEventListener("scroll", scrollHeader);
 
 /*=============== POPULAR SWIPER ===============*/
 

@@ -910,7 +910,27 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-
+@media screen and(max-width: 320px) {
+  .contaiber {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .home-car {
+    column-gap: 2rem;
+  }
+  .about-card {
+    width: 150px;
+  }
+  .offer-container {
+    grid-template-rows: max-content 180px;
+  }
+  .offer-img {
+    width: 340px;
+  }
+  .logos-container {
+    gap: 2.5rem;
+  }
+}
 /* For medium devices */
 
 /* For large devices */ ;

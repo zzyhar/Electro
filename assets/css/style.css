@@ -933,4 +933,31 @@ img {
 }
 /* For medium devices */
 
-/* For large devices */ ;
+@media screen and(max-width: 567px) {
+  .about-group {
+    width: 350px;
+    justify-self: center;
+  }
+  .features-map {
+    left: 0;
+    right: 0;
+  }
+  .featured-content {
+    grid-template-columns: repeat(2, 228px);
+  }
+  .offer-container {
+    grid-template-rows: initial;
+    grid-template-columns: 0.5fr;
+    justify-content: center;
+  }
+  .offer-img {
+    position: relative;
+    bottom: initial;
+    right: initial;
+  }
+  .offer-data {
+    margin-bottom: 4rem;
+  }
+}
+
+/* For large devices */

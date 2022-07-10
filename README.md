@@ -1,4 +1,4 @@
-# Electro
+# Electro car website
 
 # General Info: 
 
@@ -11,7 +11,7 @@ to the beginning of the webpage by clicking it (Fiture for small devices)
 
 # GitHub Pages: 
 
-This project is available on GitHub Pages: https://zzyhar.github.io/Electro/
+This project is hosted on GitHub Pages: https://zzyhar.github.io/Electro/
 
 ## Used Languages 
   - HTML

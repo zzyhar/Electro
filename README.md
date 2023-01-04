@@ -11,7 +11,7 @@ to the beginning of the webpage by clicking it (Fiture for small devices)
 
 # GitHub Pages: 
 
-This project is hosted on GitHub Pages: https://zzyhar.github.io/Electro/
+This project is hosted on GitHub Pages: https://zzyhar.github.io/Electro-car-website/
 
 ## Used Languages 
   - HTML
